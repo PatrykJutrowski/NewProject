@@ -1,34 +1,73 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-    <div>
-        <div>
-            <a href="#" >Lorem ipsum dolor sit amet<i class="arrow right"></i></a>
-        </div>
-        <div>
-            <a href="#">Products</a>
-            <a href="#">Pircing</a>
-            <a href="#">Docs</a>
-            <a href="#">Sign in</a>
-        </div>
-    </div>
-    <div class="secondnav">
-        <div>
-            <img src = "logo-pic%20(1).svg" alt="Logo"/>
-            <h1>Community</h1>
-            <a href="#">Tutorials</a>
-            <a href="#">Questions</a>
-            <a href="#">Tech Talks</a>
-            <a href="#">Get Involved</a>
-        </div>
-        <div>
-            <a href="#" >Sign up</a>
-        </div>
-    </div>
-</body>
-</html>
+body{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    margin: 30px 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.header, .secondnav{
+    display: flex;
+    justify-content: space-between;
+    background: #2E2D89;
+}
+
+.arrow {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-left: 10px;
+}
+
+.right {
+    transform: rotate(-45deg);
+}
+
+h1{
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    color: rgba(208, 208, 208, 0.71);
+    display: inline-block;
+}
+
+.logo{
+    margin: 0 15px;
+    padding: 10px  5px;
+    border-radius: 30%;
+    background: rgba(208, 208, 208, 0.71);
+}
+.secondnav{
+    -webkit-box-shadow: 5px 5px 5px rgba(185, 185, 185, 0.51);
+
+}
+
+.secondnav1{
+    display: flex;
+    justify-content: space-between;
+}
+
+section{
+    background: #006E94;
+    display: flex;
+}
+ul{
+    margin: 0;
+    list-style: none;
+}
+
+.avatar{
+    display: flex;
+}
+
+.avatar img{
+    clip-path: circle(50%);
+    width: 10%;
+}
+
+.content{
+    margin: 0 auto;
+}
