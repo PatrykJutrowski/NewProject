@@ -9,7 +9,7 @@ a{
     color: white;
 }
 
-div{
+.header, .secondnav{
     display: flex;
     justify-content: space-between;
     background: #2E2D89;
@@ -34,7 +34,7 @@ h1{
     display: inline-block;
 }
 
-img{
+.logo{
     margin: 0 15px;
     padding: 10px  5px;
     border-radius: 30%;
@@ -42,4 +42,32 @@ img{
 }
 .secondnav{
     -webkit-box-shadow: 5px 5px 5px rgba(185, 185, 185, 0.51);
+
+}
+
+.secondnav1{
+    display: flex;
+    justify-content: space-between;
+}
+
+section{
+    background: #006E94;
+    display: flex;
+}
+ul{
+    margin: 0;
+    list-style: none;
+}
+
+.avatar{
+    display: flex;
+}
+
+.avatar img{
+    clip-path: circle(50%);
+    width: 10%;
+}
+
+.content{
+    margin: 0 auto;
 }
