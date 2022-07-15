@@ -6,13 +6,14 @@ body{
 a{
     margin: 30px 20px;
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
-.header, .secondnav{
+.header{
     display: flex;
     justify-content: space-between;
     background: #2E2D89;
+    -webkit-box-shadow: black 5px 5px 5px;
 }
 
 .arrow {
@@ -35,38 +36,73 @@ h1{
 }
 
 .logo{
-    margin: 0 15px;
     padding: 10px  5px;
     border-radius: 30%;
     background: rgba(208, 208, 208, 0.71);
 }
-.secondnav{
-    -webkit-box-shadow: 5px 5px 5px rgba(185, 185, 185, 0.51);
-}
 
-.secondnav1{
+.nav{
+    position: relative;
     display: flex;
+    background: white;
     justify-content: space-between;
-}
+    -webkit-box-shadow: rgba(150, 149, 149, 0.9) 5px 5px 5px;
 
+}
+button{
+    margin: 50px 0 0 0;
+}
 section{
-    background: #006E94;
+    background: white;
     display: flex;
+    flex-direction: row;
 }
 ul{
     margin: 0;
     list-style: none;
+    color: black;
 }
+
+
+.avatar img{
+    clip-path: circle(50%);
+    width: 50px;
+}
+
 
 .avatar{
     display: flex;
 }
 
-.avatar img{
-    clip-path: circle(50%);
-    width: 10%;
+.middle{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 0 auto;
 }
 
-.content{
-    margin: 0 auto;
+
+.content1{
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+    display: flex;
+    background: #2E2D89;
+}
+
+.footerul{
+    display: flex;
+}
+
+.footerul ul li{
+    text-indent: -40px;
+}
+
+.backgroundFish{
+    background-image: url("fish (1).svg");
+    background-position:right bottom;
+    background-repeat: no-repeat;
+    background-color: #006E94;
 }
