@@ -1,20 +1,21 @@
 body{
-    margin: 0;
     padding: 0;
     font-family: "Segoe UI", sans-serif;
+    margin: 0;
 }
 
 header a{
     margin: 30px 20px;
     text-decoration: none;
-    color: black;
+    color: rgba(3, 27, 78, 1);
     position: relative;
+
 }
 
 .header{
     display: flex;
     justify-content: space-between;
-    background: #2E2D89;
+    background: #002c9bff;
     -webkit-box-shadow: black 5px 5px 5px;
     padding: 20px 0;
 }
@@ -34,15 +35,12 @@ header a{
 .navigations h1{
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
-    color: rgba(208, 208, 208, 0.71);
-    display: inline-block;
-    font-size: 40px;
+    color: #d0d1deff;
+    font-size: 25px;
 }
 
 .logo{
-    padding: 10px  5px;
     border-radius: 30%;
-    background: rgba(208, 208, 208, 0.71);
 }
 
 .nav{
@@ -51,8 +49,12 @@ header a{
     background: white;
     justify-content: space-between;
     -webkit-box-shadow: rgba(150, 149, 149, 0.9) 5px 5px 5px;
-
 }
+
+.navigations a{
+    padding: 10px 0;
+}
+
 button{
     margin: 30px;
     border-radius: 10px;
@@ -63,15 +65,23 @@ button{
     background-color: #006E94;
     padding: 20px;
 }
+
 section{
     background: white;
     display: flex;
     flex-direction: row;
+    justify-content: center;
     color: #707070
 }
+
+.navigations{
+    display: flex;
+}
+
 .leftbar ul{
-    margin: 20px 0;
     list-style: none;
+    display: flex;
+    flex-direction: column;
 }
 
 .avatar img{
@@ -86,8 +96,12 @@ section{
 .middle{
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
+    justify-content: center;
     width: 60%;
+    flex-wrap: wrap;
+}
+.content{
+    color: rgba(3, 27, 78, 1);
 }
 
 .content1{
@@ -95,13 +109,6 @@ section{
     flex-direction: column;
 }
 
-footer{
-    display: flex;
-    background: #2E2D89;
-}
-.footerul{
-    display: flex;
-}
 
 .footerul ul li{
     text-indent: -40px;
@@ -148,24 +155,30 @@ span{
 }
 
 .list {
-    margin: 50px;
-    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
     list-style: none;
     color: white;
     font-weight: bold;
 }
 
-.footer{
-    margin: 0 auto 0 0;
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2E2D89;
+}
+
+.footerul{
+    display: flex;
+    flex-direction: row;
 }
 
 .leftbar a{
     text-decoration: none;
     color: #707070;
 }
-.leftbar{
-    margin: 0 auto;
-}
+
 .leftbar li{
     padding: 5px;
 }
@@ -176,14 +189,17 @@ span{
 }
 
 p{
-    line-height: 1.8;
+    line-height: 1.65;
     font-size: 20px;
 }
 
 .copyright{
-    margin: 50px 0 0 auto;
-    display: block;
+    display: flex;
+    flex-direction: column;
+}
 
+.copyright img{
+    width: 50px;
 }
 .copyright span{
     padding: 0;
@@ -195,9 +211,6 @@ p{
 .copyright p{
     color: #707070;
 }
-.AvatarArtem{
-    display: flex;
-}
 
 
 .list a{
@@ -207,11 +220,6 @@ p{
 
 .list li{
     margin: 4px 0;
-
-}
-
-.list ul {
-    margin-top: 20px;
 }
 
 h1{
@@ -229,7 +237,7 @@ h1{
 .backgroundFish a{
     text-decoration: none;
     color: white;
-    margin: 20px;
+    margin: 10px;
     font-weight: bold;
     font-size: 20px;
 }
@@ -240,4 +248,20 @@ h1{
 
 .content1 ul li {
     font-size: 20px;
+}
+
+section{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+}
+
+.list li{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+.list{
+    margin: 20px;
 }
