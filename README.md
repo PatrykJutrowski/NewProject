@@ -1,6 +1,7 @@
 
-! [Logo](assets/logo-pic.svg)
+![Logo](assets/logo-pic.svg)
 
+![Logo](assets/logo-pic.svg)
 ![avatar](assets/awatar-ab.jpeg)
 
 ![fish](assets/fish.svg)
