@@ -1,8 +1,8 @@
 
-![Logo](assets/logo-pic.svg)
+[Logo](assets/logo-pic.svg)
 
-![avatar](assets/awatar-ab.jpeg)
+[avatar](assets/awatar-ab.jpeg)
 
-![fish](assets/fish.svg)
+[fish](assets/fish.svg)
 
-![bluePicture](assets/blue-pic.png)
+[bluePicture](assets/blue-pic.png)
