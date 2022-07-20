@@ -5,19 +5,18 @@ body{
 }
 
 header a{
-    margin: 30px 20px;
+    margin: 10px 20px;
     text-decoration: none;
     color: rgba(3, 27, 78, 1);
     position: relative;
-
+    font-size: 14px;
 }
 
 .header{
     display: flex;
     justify-content: space-between;
     background: #002c9bff;
-    -webkit-box-shadow: black 5px 5px 5px;
-    padding: 20px 0;
+    -webkit-box-shadow: black 2px 2px 2px;
 }
 
 .arrow {
@@ -36,11 +35,17 @@ header a{
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
     color: #d0d1deff;
-    font-size: 25px;
+    font-size: 20px;
+    padding: 5px 0;
 }
 
 .logo{
-    border-radius: 30%;
+    width: 30px;
+    padding: 2px 4px;
+    height: 40px;
+    margin: 10px;
+    background: #e5e8edff;
+    border-radius: 10px;
 }
 
 .nav{
@@ -53,19 +58,22 @@ header a{
 
 .navigations a{
     padding: 10px 0;
+    font-weight: bold;
 }
 
 button{
-    margin: 30px;
-    border-radius: 10px;
-    font-weight: bold;
+    border-radius:6px;
     color: white;
     cursor: pointer;
     border: none;
-    background-color: #006E94;
-    padding: 20px;
-}
+    background-color: #0069ffff;
+    margin: 0;
+    padding: 10px 12px;
 
+}
+.navigations1{
+    padding: 10px;
+}
 section{
     background: white;
     display: flex;
@@ -86,19 +94,26 @@ section{
 
 .avatar img{
     clip-path: circle(50%);
-    width: 50px;
+    width: 40px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+
+    bottom: 0;
 }
 
 .avatar{
-    margin:20px 0 ;
+    position: relative;
 }
 
+.user{
+    padding: 0 50px;
+}
 .middle{
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 60%;
-    flex-wrap: wrap;
 }
 .content{
     color: rgba(3, 27, 78, 1);
@@ -140,7 +155,7 @@ header a:hover:after {
 }
 
 span{
-    background-color: rgba(168, 164, 164, 0.71);
+    background-color: #eff2fbff;
     padding: 3px 10px;
     border-radius: 10px;
     color: black;
@@ -149,7 +164,7 @@ span{
 .contentFish{
     display: flex;
     flex-direction: row;
-    background-color: #006E94;
+    background-color: #00455bff;
     border-radius: 20px;
     margin: 40px 0;
 }
@@ -166,7 +181,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #2E2D89;
+    background: #000e29ff;
 }
 
 .footerul{
@@ -176,9 +191,16 @@ footer{
 
 .leftbar a{
     text-decoration: none;
-    color: #707070;
+    color: #5c6a88ff;
+    font-weight: bold;
+    font-size: 14px;
+    padding-right: 15px;
 }
 
+.header{
+    margin: 0;
+    padding: 12px 0;
+}
 .leftbar li{
     padding: 5px;
 }
@@ -188,10 +210,6 @@ footer{
     border-radius: 20px;
 }
 
-p{
-    line-height: 1.65;
-    font-size: 20px;
-}
 
 .copyright{
     display: flex;
@@ -209,21 +227,17 @@ p{
 }
 
 .copyright p{
-    color: #707070;
+    color:#4d5b7cff;
 }
 
 
 .list a{
     text-decoration: none;
-    color: #707070;
+    color: #4d5b7cff;
 }
 
 .list li{
     margin: 4px 0;
-}
-
-h1{
-    font-size: 40px;
 }
 
 .backgroundFish h1{
@@ -264,4 +278,31 @@ section{
 
 .list{
     margin: 20px;
+}
+
+.content h1{
+    font-size: 30px;
+    margin: 20px 15px 0 0;
+    padding: 0;
+}
+
+p{
+    font-size: 15px;
+}
+
+h3, h2{
+    color: #4d5b7cff;
+}
+
+.content1 ul li{
+    font-size:16px;
+}
+
+.content1 a{
+    color: #0069ffff;
+    text-underline-offset: 3px;
+}
+
+.imgFish{
+    object-fit: cover;
 }
