@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Epilogue:ital,wght@0,200;0,300;1,100;1,200&family=Inter:wght@500&family=Kanit:ital,wght@1,200&family=Poppins:wght@700&family=Raleway:ital,wght@0,200;1,100&display=swap');
-
-
 
 body{
     padding: 0;
@@ -14,25 +11,32 @@ header a{
     position: relative;
     font-size: 14px;
     color: black;
+    letter-spacing: 0.5px;
 }
 
 .hrefs a , .lorem a{
     color: white;
 }
 
-
 .hrefs{
     margin: 0 30px 0 0 ;
 }
 
 .lorem{
-    margin: 3px 0 0 27px;
-    font-size: 14px;
-    letter-spacing: 0.42px;
+    position: relative;
+    padding-bottom: 1px;
+    margin: 0 0 0 27px;
 }
 
-.header a{
-    letter-spacing: 0.45px;
+.imglorem{
+    position: absolute;
+    top: -5px;
+    right: -30px;
+}
+
+.hrefs img{
+    position: relative;
+    top: 2px;
 }
 
 .header{
@@ -56,8 +60,7 @@ header a{
 }
 
 .navigations h1{
-    font-weight: 500;
-    font-family: 'Epilogue and Inter', sans-serif;
+    font-weight: normal;
     color: #c0c2d3ff;
     font-size: 24px;
     padding:  0;
@@ -98,6 +101,7 @@ button{
     padding: 11px 12px;
     font-size: 14px;
 }
+
 .navigations1{
     display: flex;
     align-items: center;
@@ -116,6 +120,7 @@ section{
     display: flex;
     align-items: center;
 }
+
 .leftbar ul{
     list-style: none;
 }
@@ -137,17 +142,21 @@ section{
 .avatar{
     position: relative;
 }
+
 .user a{
     font-weight: bold;
     color: #0069ffff;
 }
+
 .user{
     padding:30px 0 0 65px
 }
+
 .dev{
      color: #6a7285ff;
     font-weight: bold;
 }
+
 .middle{
     display: flex;
     flex-direction: column;
@@ -165,13 +174,11 @@ section{
     flex-direction: column;
 }
 
-
 .footerul ul li{
     text-indent: -40px;
     list-style: none;
     font-weight:lighter;
 }
-
 
 header a:after {
     content: '';
@@ -191,8 +198,6 @@ header a:hover:after {
     transform-origin: bottom left;
 }
 
-
-
 span{
     background-color: #eff2fbff;
     font-size: 14px;
@@ -202,13 +207,13 @@ span{
     margin: 0;
 }
 
-
 .contentFish{
     display: flex;
     flex-direction: row;
     background-color: #00455bff;
     border-radius: 20px;
     margin: 40px 0;
+    height: 370px;
 }
 
 .list {
@@ -273,16 +278,18 @@ footer{
     color: #4d5b7cff;
 }
 
-.list li{
-    margin: 4px 0;
-}
 
 .backgroundFish h1{
     color: white;
+    margin: 45px 0 24px 0  ;
+    font-size: 32px;
+    padding: 0;
 }
 
 .backgroundFish p{
-    color: #a6a6a6;
+    color: #d6dceaff;
+    line-height: 1.5;
+    letter-spacing: 0.2px;
 }
 
 .backgroundFish a{
@@ -294,11 +301,7 @@ footer{
 }
 
 .backgroundFish{
-    margin: 0 40px;
-}
-
-.content1 ul li {
-    font-size: 20px;
+    margin: 0 33px;
 }
 
 section{
@@ -337,19 +340,10 @@ h3, h2{
     color: #4d5b7cff;
 }
 
-.content1 ul li{
-    font-size:16px;
-}
-
 .content1 a{
     color: #0069ffff;
     text-underline-offset: 3px;
 }
-
-.imgFish{
-    object-fit: cover;
-}
-
 
 .Contents li, .Related li{
     display: flex;
@@ -372,6 +366,7 @@ h3, h2{
 .Related{
     padding-top: 13px;
 }
+
 .down {
     transform: rotate(45deg);
 }
@@ -380,16 +375,60 @@ h3, h2{
     font-weight: bold;
 }
 
-span {
-    margin-top: -2px;
-}
-
 .content1 p{
     line-height: 1.5;
-    margin-top: 5px;
+    margin: 5px 0 10px 0;
     letter-spacing: 0.5px;
+    padding: 0;
 }
 
-span{
-    font-family: "Inter",sans-serif;
+.Prerequisites{
+    margin: -10px 0 0 0;
+    padding: 0;
+    letter-spacing: 0.5px;
+    line-height: 1.4;
+}
+
+.Prerequisites p{
+    padding: 10px 0 ;
+    margin: 0;
+}
+
+.Prerequisites ul li{
+    font-size: 16px;
+}
+
+.Prerequisites ul{
+    margin:5px 0 20px 0 ;
+}
+.Conclusion p{
+    padding: 5px 0 0 0 ;
+    letter-spacing: 0.5px
+}
+.Conclusion{
+    margin: -8px 0 0 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+.Prerequisites a{
+    color: #0069ffff;
+    text-underline-position: under;
+}
+
+.square{
+    content: '';
+    width: 100%;
+    height: 2px;
+    background-color: #d6dceaff;
+    margin: 70px 0 10px 0;
+}
+
+.contentFish{
+    position: relative;
+}
+.contentFish img{
+    position: relative;
+    right:0;
+    height: 100%;
 }
