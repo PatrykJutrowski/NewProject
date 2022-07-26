@@ -102,14 +102,6 @@ button{
     padding: 2px 0 0  0  ;
 }
 
-section{
-    background: white;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    color: #707070
-}
-
 .navigations{
     display: flex;
     align-items: center;
@@ -223,8 +215,9 @@ span{
 footer{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     background: #000e29ff;
+    padding:6px 0;
 }
 .user p{
     font-weight: 600;
@@ -232,9 +225,12 @@ footer{
     padding:0;
 
 }
+
 .footerul{
+    align-items:flex-start;
     display: flex;
     flex-direction: row;
+    margin-top: 50px;
 }
 
 .leftbar a{
@@ -242,19 +238,18 @@ footer{
     color: #5c6a88ff;
     font-size: 14px;
 }
-.leftbar{
-    font-family: "Epilogue", sans-serif;
-}
+
 .bluePic{
     margin: 45px 0 17px 0;
     border-radius: 20px;
     height: 380px;
 }
 
-
 .copyright{
+    gap: 15px;
     display: flex;
     flex-direction: column;
+    margin-top: 50px;
 }
 
 .copyright img{
@@ -277,7 +272,6 @@ footer{
     color: #4d5b7cff;
 }
 
-
 .backgroundFish h1{
     color: white;
     margin: 45px 0 25px 0  ;
@@ -291,11 +285,13 @@ footer{
 }
 
 .backgroundFish a{
+    font-family: "Inter", sans-serif;
     text-decoration: none;
     color: white;
-    margin: 10px;
-    font-weight: bold;
-    font-size: 20px;
+    margin: 10px 0 10px 0;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 1px;
 }
 
 .backgroundFish{
@@ -307,6 +303,8 @@ section{
     display: flex;
     flex-direction:row;
     justify-content: space-evenly;
+    background: white;
+    padding-bottom: 43px;
 }
 
 .list li{
@@ -423,8 +421,19 @@ h3, h2{
 .contentFish{
     position: relative;
 }
-.contentFish img{
+.contentFish i img{
     position: relative;
     right:0;
     height: 100%;
+}
+
+.contentFish  a img{
+    position: relative;
+    top: 9px;
+    left: 5px;
+}
+
+.rectangle{
+    background: #f0f0f2ff;
+    height: 25px;
 }
