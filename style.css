@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Epilogue:wght@200;300;400;500;600;700;800;900&family=Inter:wght@400;500&family=Kanit:ital,wght@1,200&family=Poppins:wght@700&family=Raleway:ital,wght@0,200;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Epilogue:wght@200;300;400;500;600;700;800;900&family=Inter:wght@200;300;400;500;600;700;800;900&family=Kanit:ital,wght@1,200&family=Poppins:wght@700&family=Raleway:ital,wght@0,200;1,100&display=swap');
 body{
     padding: 0;
-    font-family: "Epilogue and Inter", sans-serif;
     margin: 0;
 }
 
@@ -9,9 +9,10 @@ header a{
     margin: 0 5px;
     text-decoration: none;
     position: relative;
-    font-size: 14px;
+    font-size: 13px;
     color: black;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.55px;
+    padding: 0 ;
 }
 
 .hrefs a , .lorem a{
@@ -24,7 +25,6 @@ header a{
 
 .lorem{
     position: relative;
-    padding-bottom: 1px;
     margin: 0 0 0 27px;
 }
 
@@ -43,39 +43,33 @@ header a{
     display: flex;
     justify-content: space-between;
     background: #002c9bff;
-    -webkit-box-shadow: black 2px 2px 2px;
-    padding:14.5px 0;
-}
-
-.arrow {
-    border: solid white;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 3px;
-    margin-left: 10px;
-}
-
-.right {
-    transform: rotate(-45deg);
+    padding:13px 0 14.5px 0;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
 }
 
 .navigations h1{
-    font-weight: normal;
+    letter-spacing: -1px;
+    font-weight: 500;
     color: #c0c2d3ff;
-    font-size: 24px;
+    font-size: 23px;
     padding:  0;
     margin:0 0 0 10px;
 }
 
 .nav{
-    padding: 8.7px  30px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    padding: 8.7px  30px 9px 30px;
     position: relative;
     display: flex;
     background: white;
     justify-content: space-between;
-    -webkit-box-shadow: rgba(213, 211, 211, 0.46) 3px 2px 2px;
+    -webkit-box-shadow: rgba(213, 211, 211, 0.46) 4px 2.5px 4px;
 }
-
+i{
+    margin-left: 3px;
+}
 .navigations .logo{
     margin-left: 1px;
     width: 35px;
@@ -86,26 +80,26 @@ header a{
 }
 
 .navigations a{
-    padding: 0 10px;
+    padding: 1px 10.5px 0 10.5px;
     font-size: 14px;
-    font-weight: bold;
-    letter-spacing: 0.2px;
+    letter-spacing: 0;
 }
 
 button{
+    font-family: "Inter", sans-serif;
     border-radius:8px;
     color: white;
     cursor: pointer;
     border: none;
     background-color: #0069ffff;
-    padding: 11px 12px;
-    font-size: 14px;
+    padding: 10px 12px 12px 12px;
+    font-size: 13px;
 }
 
 .navigations1{
     display: flex;
     align-items: center;
-    padding-right:10px;
+    padding: 2px 0 0  0  ;
 }
 
 section{
@@ -186,7 +180,7 @@ header a:after {
     width: 100%;
     transform: scaleX(0);
     height: 2px;
-    bottom: 0;
+    bottom:-25px;
     left: 0;
     background-color: #0087ca;
     transform-origin: bottom right;
