@@ -5,7 +5,7 @@ body{
     margin: 0;
 }
 
-header a{
+.Mainheader a{
     margin: 0 5px;
     text-decoration: none;
     position: relative;
@@ -174,7 +174,7 @@ section{
     font-weight:lighter;
 }
 
-header a:after {
+.Mainheader a:after {
     content: '';
     position: absolute;
     width: 100%;
@@ -187,7 +187,7 @@ header a:after {
     transition: transform 0.25s ease-out;
 }
 
-header a:hover:after {
+.Mainheader a:hover:after {
     transform: scaleX(1);
     transform-origin: bottom left;
 }
