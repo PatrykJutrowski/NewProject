@@ -360,11 +360,12 @@ h3, h2{
 }
 .Related{
     padding: 13px 0 0 0;
-    text-indent: -3px;
+    margin-left: -3px;
 }
 .Related li{
+    font-size: 13px;
     letter-spacing: 0.5px;
-    padding-top: 14px;
+    padding-top: 13px;
     padding-bottom: 3px;
     font-family: "Epilogue", sans-serif;
 }
@@ -382,7 +383,7 @@ h3, h2{
 }
 
 .content1 p{
-    line-height: 1.55;
+    line-height: 1.5;
     margin: 5px 0 10px 0;
     letter-spacing: 0.2px;
     padding: 0;
