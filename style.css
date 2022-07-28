@@ -97,7 +97,7 @@ button{
     cursor: pointer;
     border: none;
     background-color: #0069ffff;
-    padding: 11px;
+    padding: 11px  12.19px;
     font-size: 13px;
 }
 
@@ -114,11 +114,15 @@ button{
 
 .leftbar ul{
     list-style: none;
+
 }
 
 .leftbar{
+    flex-basis: 350px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    padding-left: 4px;
 }
 
 .avatar img{
@@ -145,7 +149,7 @@ button{
 }
 
 .dev{
-     color: #6a7285ff;
+    color: #6a7285ff;
     font-weight: 500;
 }
 
@@ -153,7 +157,7 @@ button{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width:64%;
+    width:950px;
     font-family: "Inter",sans-serif;
 }
 
@@ -235,7 +239,6 @@ footer{
 .leftbar a{
     text-decoration: none;
     color: #5c6a88ff;
-    font-size: 14px;
 }
 
 .bluePic{
@@ -301,7 +304,6 @@ footer{
 section{
     display: flex;
     flex-direction:row;
-    justify-content: space-evenly;
     background: white;
     padding-bottom: 43px;
 }
@@ -339,23 +341,26 @@ h3, h2{
 }
 
 .Contents li, .Related li{
-    font-family: "Inter", sans-serif;
-    font-weight: 500;
+    font-size: 14px;
+    font-weight: 400;
     display: flex;
     flex-direction: column;
     padding-top: 13px;
-    padding-left: 36px;
-    font-size: 12px;
     margin: 0;
 }
 
 .Contents li{
+    padding-left: 36px;
+    font-family: "Inter", sans-serif;
     letter-spacing: 1px;
 }
 .Related{
-    padding: 10px 0 0 0;
+    padding: 13px 0 0 0;
 }
+.Related li{
 
+    font-family: "Epilogue", sans-serif;
+}
 .Contents{
     padding: 0;
 }
@@ -365,7 +370,8 @@ h3, h2{
 }
 
 .rel{
-    font-weight: bold;
+    font-size: 15.5px;
+    font-weight: 500;
 }
 
 .content1 p{
