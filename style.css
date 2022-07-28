@@ -123,6 +123,7 @@ button{
     flex-direction: column;
     align-items: center;
     padding-left: 4px;
+    text-indent: -5px;
 }
 
 .avatar img{
@@ -157,7 +158,7 @@ button{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width:950px;
+    width:800px;
     font-family: "Inter",sans-serif;
 }
 
@@ -244,7 +245,8 @@ footer{
 .bluePic{
     margin: 45px 0 17px 0;
     border-radius: 20px;
-    height: 380px;
+    height: 376px;
+    width: 800px;
 }
 
 .copyright{
@@ -340,25 +342,30 @@ h3, h2{
     text-underline-offset: 3px;
 }
 
-.Contents li, .Related li{
-    font-size: 14px;
+.Contents li, .Related li {
     font-weight: 400;
     display: flex;
     flex-direction: column;
     margin: 0;
+    font-size: 13px;
 }
 
+
 .Contents li{
+    letter-spacing: 1px;
+    font-size: 14px;
     padding-left: 36px;
     font-family: "Inter", sans-serif;
-    letter-spacing: 1px;
-    padding-top: 12.5px;
+    padding-top: 13px;
+    padding-bottom: 0;
 }
 .Related{
     padding: 13px 0 0 0;
 }
 .Related li{
-    padding-top: 15px;
+    letter-spacing: 0.75px;
+    padding-top: 14px;
+    padding-bottom: 3px;
     font-family: "Epilogue", sans-serif;
 }
 .Contents{
@@ -370,7 +377,7 @@ h3, h2{
 }
 
 .rel{
-    font-size: 15.5px;
+    font-size: 14.5px;
     font-weight: 500;
 }
 
