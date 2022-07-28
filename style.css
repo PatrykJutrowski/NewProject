@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Epilogue:wght@200;300;400;500;600;700;800;900&family=Inter:wght@400;500&family=Kanit:ital,wght@1,200&family=Poppins:wght@700&family=Raleway:ital,wght@0,200;1,100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Epilogue:wght@200;300;400;500;600;700;800;900&family=Inter:wght@200;300;400;500;600;700;800;900&family=Kanit:ital,wght@1,200&family=Poppins:wght@700&family=Raleway:ital,wght@0,200;1,100&display=swap');
+
 body{
     padding: 0;
     margin: 0;
@@ -49,6 +49,7 @@ body{
 }
 
 .navigations h1{
+    font-family: "Epilogue", sans-serif;
     letter-spacing: -1px;
     font-weight: 500;
     color: #c0c2d3ff;
@@ -58,8 +59,7 @@ body{
 }
 
 .nav{
-    font-family: "Inter", sans-serif;
-    font-weight: 600;
+
     padding: 8.7px  30px 9px 30px;
     position: relative;
     display: flex;
@@ -80,19 +80,24 @@ i{
 }
 
 .navigations a{
-    padding: 1px 10.5px 0 10.5px;
+    font-family: "Inter", sans-serif;
+    margin: 0 10.5px;
+    font-weight: 500;
+    padding: 1px 5px 0 5px;
     font-size: 14px;
     letter-spacing: 0;
 }
 
 button{
     font-family: "Inter", sans-serif;
+    letter-spacing: 0.5px;
+    font-weight: 400;
     border-radius:8px;
     color: white;
     cursor: pointer;
     border: none;
     background-color: #0069ffff;
-    padding: 10px 12px 12px 12px;
+    padding: 11px;
     font-size: 13px;
 }
 
@@ -166,25 +171,10 @@ button{
     list-style: none;
     font-weight:lighter;
 }
-
-.Mainheader a:after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom:-25px;
-    left: 0;
-    background-color: #0087ca;
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
+a.tutorial {
+    text-decoration: none;
+    position: relative;
 }
-
-.Mainheader a:hover:after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
-}
-
 span{
     background-color: #eff2fbff;
     font-size: 14px;
@@ -194,7 +184,16 @@ span{
     margin: 0;
     font-weight: 500;
 }
-
+.navigations a.tutorial:after{
+    content: '';
+    width: 104%;
+    position: absolute;
+    left: -4px;
+    top: 40px;
+    border-width: 0 2px 2px;
+    border-style: solid;
+    color: #1d4eff;
+}
 .contentFish{
     display: flex;
     flex-direction: row;
