@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Epilogue:wght@200;300;400;500;600;700;800;900&family=Inter:wght@200;300;400;500;600;700;800;900&family=Kanit:ital,wght@1,200&family=Poppins:wght@700&family=Raleway:ital,wght@0,200;1,100&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 body{
+    width: 1300px;
+    height: 2730px;
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
 }
 
 .Mainheader a{
@@ -67,9 +69,7 @@ body{
     justify-content: space-between;
     -webkit-box-shadow: rgba(213, 211, 211, 0.46) 4px 2.5px 4px;
 }
-i{
-    margin-left: 3px;
-}
+
 .navigations .logo{
     margin-left: 1px;
     width: 35px;
@@ -180,15 +180,17 @@ a.tutorial {
     text-decoration: none;
     position: relative;
 }
-span{
+
+.css {
     background-color: #eff2fbff;
     font-size: 14px;
-    padding: 5px 5px 6px 6px;
+    padding: 5.2px 6px  6px 6px;
     border-radius: 8px;
     color: black;
     margin: 0;
     font-weight: 500;
 }
+
 .navigations a.tutorial:after{
     content: '';
     width: 104%;
@@ -199,13 +201,16 @@ span{
     border-style: solid;
     color: #1d4eff;
 }
+
 .contentFish{
     display: flex;
     flex-direction: row;
     background-color: #00455bff;
-    border-radius: 20px;
+    border-radius: 25px;
     margin: 40px 0;
-    height: 370px;
+    width: 800px;
+    height: 368px;
+    -webkit-box-shadow: #eff1f9ff 6px 6px 6px;
 }
 
 .list {
@@ -213,16 +218,23 @@ span{
     flex-direction: column;
     list-style: none;
     color: white;
-    font-weight: bold;
+    font-weight: 300;
+    margin: 0;
+    gap:16px;
+    padding: 0 23px;
 }
 
 footer{
-    display: flex;
+    padding:96px 0 0 0 ;
     justify-content: center;
+    font-family: "Inter", sans-serif;
+    display: flex;
     align-items: flex-start;
     background: #000e29ff;
-    padding:6px 0;
+    width: 1300px;
+    height: 425px;
 }
+
 .user p{
     font-weight: 600;
     margin: 0 0 7px 0;
@@ -234,7 +246,10 @@ footer{
     align-items:flex-start;
     display: flex;
     flex-direction: row;
-    margin-top: 50px;
+    margin: 0;
+    padding:0;
+    font-size: 13px;
+    color: #777e8dff;
 }
 
 .leftbar a{
@@ -248,59 +263,66 @@ footer{
     height: 376px;
     width: 800px;
 }
-
-.copyright{
-    gap: 15px;
-    display: flex;
-    flex-direction: column;
-    margin-top: 50px;
+.p{
+    color: #76809aff;
 }
 
 .copyright img{
     width: 50px;
+    position: relative;
+    left: 5px;
 }
 
-.copyright span{
+.copyright{
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     padding: 0;
     background: none;
-    color: #707070;
-    font-weight: bold;
-}
-
-.copyright p{
-    color:#4d5b7cff;
+    color:#777e8dff;
+    font-weight: 500;
+    font-size: 13px;
 }
 
 .list a{
     text-decoration: none;
-    color: #4d5b7cff;
+    color: #777e8dff;
+    font-weight: 500;
 }
 
 .backgroundFish h1{
+    font-family: "Epilogue", sans-serif;
     color: white;
-    margin: 45px 0 25px 0  ;
-    font-size: 32px;
+    margin: 47px 0 14px 0  ;
+    font-size: 31px;
     padding: 0;
+    font-weight: 700;
+    width: 545px;
+    line-height: 1.3;
 }
 
 .backgroundFish p{
-    color: #d6dceaff;
+    color: #c9d3e2ff;
     line-height: 1.5;
+    width: 545px;
 }
 
 .backgroundFish a{
-    font-family: "Inter", sans-serif;
+    position: relative;
+    font-family: "JetBrains Mono", sans-serif;
     text-decoration: none;
     color: white;
-    margin: 10px 0 10px 0;
+    margin:0;
     font-weight: 400;
-    font-size: 16px;
-    letter-spacing: 1px;
+    font-size: 15px;
+    letter-spacing: 0.75px;
+    top: 7px;
 }
 
 .backgroundFish{
-    margin: 0 33px;
-    padding:0 0 0 3px;
+    margin: 0 0 0 33px;
+    padding:0 ;
 }
 
 section{
@@ -313,11 +335,7 @@ section{
 .list li{
     display: flex;
     flex-direction: column;
-    margin: 10px 0;
-}
-
-.list{
-    margin: 20px;
+    margin:9px 0;
 }
 
 .content h1{
@@ -335,6 +353,17 @@ section{
 
 h3, h2{
     color: #4d5b7cff;
+    font-family: "Epilogue",sans-serif;
+}
+
+h2{
+    padding-top: 2px;
+    margin-bottom:16px;
+    letter-spacing: 0;
+}
+
+h3{
+    padding-top:8px;
 }
 
 .content1 a{
@@ -349,7 +378,6 @@ h3, h2{
     margin: 0;
 }
 
-
 .Contents li{
     letter-spacing: 1px;
     font-size: 14px;
@@ -358,10 +386,12 @@ h3, h2{
     padding-top: 13px;
     padding-bottom: 0;
 }
+
 .Related{
     padding: 13px 0 0 0;
     margin-left: -3px;
 }
+
 .Related li{
     font-size: 13px;
     letter-spacing: 0.5px;
@@ -369,12 +399,9 @@ h3, h2{
     padding-bottom: 3px;
     font-family: "Epilogue", sans-serif;
 }
+
 .Contents{
     padding: 0;
-}
-
-.down {
-    transform: rotate(45deg);
 }
 
 .rel{
@@ -384,15 +411,14 @@ h3, h2{
 
 .content1 p{
     line-height: 1.5;
-    margin: 5px 0 10px 0;
-    letter-spacing: 0.2px;
+    margin: 4px 0 12px 0;
     padding: 0;
 }
 
 .Prerequisites{
     margin: -10px 0 0 0;
     padding: 0;
-    letter-spacing: 0.5px;
+
     line-height: 1.4;
 }
 
@@ -406,14 +432,17 @@ h3, h2{
 }
 
 .Prerequisites ul{
-    margin:5px 0 20px 0 ;
+    color: #4d5b7cff;
+    margin:6px 0 18px 0 ;
 }
+
 .Conclusion p{
-    padding: 5px 0 0 0 ;
-    letter-spacing: 0.2px
+    padding: 7px 0 2px 0 ;
+
 }
+
 .Conclusion{
-    margin: -8px 0 0 0;
+    margin: -7px 0 0 0;
     padding: 0;
     line-height: 1.5;
 }
@@ -433,20 +462,38 @@ h3, h2{
 
 .contentFish{
     position: relative;
+    margin-bottom: 47px;
 }
 .contentFish i img{
     position: relative;
-    right:0;
+    right:-3px;
     height: 100%;
 }
 
 .contentFish  a img{
     position: relative;
-    top: 9px;
-    left: 5px;
+    top: 10.5px;
+    left: 8px;
 }
 
 .rectangle{
     background: #f0f0f2ff;
     height: 25px;
+}
+
+.content1 span, .Prerequisites span{
+    font-family:"JetBrains Mono" , sans-serif;
+    font-weight: 400;
+    color: black;
+    padding: 3px;
+    background: #e3e8f4ff;
+    font-size: 14px;
+    border-radius: 8px;
+}
+
+.copyright p{
+    position: relative;
+    left: -20px;
+    font-size: 14px;
+    font-weight: 300;
 }
