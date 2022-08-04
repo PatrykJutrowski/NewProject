@@ -1,10 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Epilogue:wght@200;300;400;500;600;700;800;900&family=Inter:wght@200;300;400;500;600;700;800;900&family=Kanit:ital,wght@1,200&family=Poppins:wght@700&family=Raleway:ital,wght@0,200;1,100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 body{
-    width: 1300px;
-    height: 2730px;
     padding: 0;
-    margin: 0 auto;
+    margin: 0 ;
 }
 
 .Mainheader a{
@@ -155,10 +153,10 @@ button{
 }
 
 .middle{
+    max-width: 800px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width:800px;
     font-family: "Inter",sans-serif;
 }
 
@@ -208,7 +206,6 @@ a.tutorial {
     background-color: #00455bff;
     border-radius: 25px;
     margin: 40px 0;
-    width: 800px;
     height: 368px;
     -webkit-box-shadow: #eff1f9ff 6px 6px 6px;
 }
@@ -231,7 +228,7 @@ footer{
     display: flex;
     align-items: flex-start;
     background: #000e29ff;
-    width: 1300px;
+    width: 100%;
     height: 425px;
 }
 
@@ -260,8 +257,8 @@ footer{
 .bluePic{
     margin: 45px 0 17px 0;
     border-radius: 20px;
-    height: 376px;
-    width: 800px;
+    height: auto;
+    max-width: 800px;
 }
 .p{
     color: #76809aff;
@@ -298,14 +295,13 @@ footer{
     font-size: 31px;
     padding: 0;
     font-weight: 700;
-    width: 545px;
     line-height: 1.3;
 }
 
 .backgroundFish p{
     color: #c9d3e2ff;
     line-height: 1.5;
-    width: 545px;
+    height: auto;
 }
 
 .backgroundFish a{
@@ -321,8 +317,8 @@ footer{
 }
 
 .backgroundFish{
-    margin: 0 0 0 33px;
-    padding:0 ;
+    margin: 0 ;
+    padding:0 0 0 33px ;
 }
 
 section{
@@ -466,7 +462,7 @@ h3{
 }
 .contentFish i img{
     position: relative;
-    right:-3px;
+    right:0;
     height: 100%;
 }
 
@@ -497,4 +493,101 @@ h3{
     font-size: 14px;
     font-weight: 300;
 }
+.contentFish .hide{
+    overflow: hidden;
+}
+@media screen and (max-width: 1200px){
+    div.header{
+        display: none;
+    }
+    .leftbar{
+        display: none;
+    }
+    .middle{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-family: "Inter",sans-serif;
+        width: 100%;
+    }
+    .nav a:nth-child(4),
+    .nav a:nth-child(5),
+    .nav a:nth-child(6),
+    .nav h1, .logo
+    {
+        display: none;
+    }
+    .navigations a.tutorial:after{
+        content: '';
+        width: 104%;
+        position: absolute;
+        left: -4px;
+        top: 36px;
+        border-width: 0 2px 2px;
+        border-style: solid;
+        color: #1d4eff;
+    }
+    .tutorial{
+       overflow: visible;
+    }
+    .navigations{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footerul{
+        display: none;
+    }
+    .copyright{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .copyright p{
+        position: relative;
+        left: 0;
+    }
+    footer{
+        display: flex;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+    .content h1{
+        font-size: 28px
+    }
+    p{
+        font-size: 14px;
+    }
+    .bluePic{
+        margin: 45px 15px 17px 0;
+    }
+    .contentFish p{
+        font-size: 12px;
+    }
+    .contentFish a {
+        font-size: clamp(12px,4px, 7px)
+    }
+    .contentFish h1{
+        font-size: clamp(27px,1px, 2px)
+    }
+    section{
+        margin:0 15px
+    }
+}
 
+@media screen and (max-width: 601px){
+    .contentFish{
+        width: 100%;
+        height:auto;
+    }
+    .contentFish i{
+        display: none;
+    }
+    .contentFish a{
+        margin: 0;
+        padding: 0;
+        top: -7px;
+    }
+}
